@@ -24,6 +24,7 @@ x402-enabled APIs your agent can call right now. All support Base L2 and/or Sola
 | Service | Category | Price/call | Networks | Free Trial |
 |---|---|---|---|---|
 | [AgentGate](https://x402.agentsea.vn) | Web scraping, Prompt guard, Domain intel, AEO audit | $0.001–$0.05 | Base L2, Solana | 8 calls |
+| [bilbop](https://api.bilbop.org) | Summarize, Solana token brief/mint info, brand feedback, Piper TTS | $0.01–$0.50 | Solana | — |
 | [Add yours →](https://github.com/teddiesloco/agentgate-x402/edit/main/packages/awesome-x402/README.md) | | | | |
 
 ### AgentGate
@@ -35,6 +36,15 @@ Infrastructure-layer gateway for AI agents. When your primary scraper hits 429/4
 - **AEO score:** 90/100, Grade A+, MACHINE_NATIVE_READY
 
 ---
+
+### bilbop
+
+Pay-per-call Solana x402 APIs for agents — no accounts, USDC via PayAI.
+
+- **Base:** https://api.bilbop.org
+- **Endpoints:** `POST /v1/summarize` ($0.01), `POST /v1/sol-token-brief` ($0.01), `POST /v1/sol-mint-info` ($0.01), `POST /brand-feedback` ($0.50), `POST /v1/tts` ($0.025)
+- **Discovery:** `/.well-known/x402`, `/.well-known/x402.json`, `/openapi.json`
+
 
 ## Libraries
 
